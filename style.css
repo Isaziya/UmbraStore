@@ -1,0 +1,323 @@
+ /* Styling untuk header */
+ body {
+    background-color: #F5F5F5;
+    font-family: 'Playfair Display', serif ;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling untuk navigasi/menu */
+nav {
+    background-color: #967969;
+    padding: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #967969;
+    border-radius: 5px;
+}
+
+/* Styling untuk konten */
+.content {
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    /* Gunakan tanda kutip untuk font multi-kata */
+    font-style: italic;
+    /* Tambahkan gaya italic di sini */
+}
+
+/* Styling untuk footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling untuk logo */
+.navbar .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #000;
+}
+
+.navbar .logo span {
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+/* Menu navigasi tengah */
+.navbar .nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.navbar .nav-links a:hover {
+    color: #555;
+}
+
+/* Opsi bahasa */
+.navbar .right-options {
+    font-size: 0.9em;
+    color: #000;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* Ikon di kanan atas */
+.navbar .nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .nav-icons i {
+    color: #000;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.navbar .nav-icons i:hover {
+    color: #555;
+}
+
+.content h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero-section {
+        text-align: center;
+        padding: 50px;
+        background-color: #D7B89E;
+    }
+    .hero-text {
+        font-size: 2rem;
+        font-family: 'Playfair Display', italic;
+        font-style: italic;
+    }
+    .hero-text {
+        font-size: 2rem;
+        font-family: 'Playfair Display', italic;
+        font-style: 'Cinzel';
+    }
+    .highlight {
+        font-weight: 200;
+        font-style: italic;
+    }
+    .button {
+        background-color:#4B2E2A;
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+    .hero-section {
+        text-align: center;
+        padding: 50px;
+        background-color: #D7B89E;
+    }
+    .hero-text {
+        font-size: 2rem;
+        font-family: 'Playfair Display', italic;
+        font-style: italic;
+    }
+    .highlight {
+        font-weight: 200;
+        font-style: italic;
+    }
+    .button {
+        background-color:#4B2E2A;
+        color: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    } 
+    
+   /* Custom styles for About Us */
+.about-header {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.about-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 400;
+    color: #333;
+}
+
+.about-section {
+    padding: 60px 20px;
+    color: #555;
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
+    max-width: 80%; /* Adjusts the width of the content */
+    margin: auto;
+}
+
+.about-section h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 1em; /* Reduces the font size */
+    line-height: 1.4; /* Reduces line spacing */
+    color: #666;
+    max-width: 75%; /* Ensures text doesn't stretch across the full page */
+    margin: 0 auto; /* Centers the text */
+}
+
+    .products-section, .info-section, .shop-section {
+        padding: 90px 0;
+    }
+    .product-item, .shop-item {
+        text-align: center;
+    }
+    .info-section {
+        background-color: #e9ecef;
+        text-align: center;
+    }
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 40px;
+}
+
+.product-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.product-card img {
+    height: 150px;
+    width: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #FF6347;
+    /* Warna merah untuk badge sale */
+    color: #ffffff;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.product-name {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-price .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 2px;
+}
+
+.product-rating {
+    color: #FFD700;
+    /* Warna bintang rating */
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.product-name {
+    font-size: 1em;
+    color: #333;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.product-price {
+    font-size: 1em;
+    color: #333;
+}
+
+.product-price .original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-left: 5px;
+}
+
+.product-rating {
+    color: #FFD700;
+    /* Warna bintang rating */
+    font-size: 0.9em;
+    margin: 5px;
+
+}
